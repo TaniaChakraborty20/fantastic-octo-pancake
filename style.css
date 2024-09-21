@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(/pexels-fabianwiktor-994605.jpg);
+    background-size: cover;
+    background-position : center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 25vh 25vh 25vh 25vh;
+    color: white;
+    font-size: xx-large;
+}
+.rtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 10%;
+    left: 1%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    bottom: 5%;
+    right: 45%;
+}
+#about{
+    color: seagreen;
+}
+
+.b0{
+    color: seagreen;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1vh 5vh;
+    text-align: center;
+    font-size: 35px;
+}
+.b1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 0 5vh;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.b2{
+    display: flex;
+    flex-direction: row;
+    min-height: inherit;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 0 10vh;
+    text-align: center;
+
+}
+.b3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 0 10vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.b2 .down1{
+    width: 30vh;
+    min-height: 20vh;
+    background-image: url(bali\ beach.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 2vh;
+    color: black;
+    border: solid 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 6px 6px 0px gray;
+}
+.b2 .down2{
+    width: 30vh;
+    min-height: 20vh;
+    background-image: url(boracay\ beach.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 2vh;
+    color: white;
+    border: solid 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 6px 6px 0px gray;
+}
+.b2 .down3{
+    width: 30vh;
+    min-height: 20vh;
+    background-image: url(hawai\ beach.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 2vh;
+    color: black;
+    border: solid 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 6px 6px 0px gray;
+}
+.b2 .down4{
+    width: 30vh;
+    min-height: 20vh;
+    background-image: url(maldives.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 2vh;
+    color: white;
+    border: solid 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 6px 6px 0px gray;
+}
+.trip{
+    display: flex;
+    flex-direction: column;
+    min-height: inherit;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 0 10vh;
+    color: seagreen;
+    text-align: center;
+}
